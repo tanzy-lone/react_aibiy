@@ -3,7 +3,7 @@ import { DemoWrapper } from './style'
 import Indicator from '@/base-ui/indicator'
 
 const Demo = memo(() => {
-  const [list, setList] = useState([
+  const [list] = useState([
     'abc',
     'cba',
     'aaa',
